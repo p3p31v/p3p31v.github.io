@@ -1,6 +1,12 @@
 {% extends '/home/jose/p3p31v.github.io/core/templates/core/base.html' %}
-{% block content %}
 {% block title %} Portada {% endblock %}
-<h2>Portada</h2>
-<p>Esta es la portada</p>
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Jose Luis</h1>
+              <span class="subheading">Physiker</span>
+{% endblock %}
+
+{% block content %}
 {% endblock %}
